@@ -1,0 +1,1539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primary -->
+<title>Chosen Generation Funeral Services | Compassionate Care & Dignified Farewells</title>
+<meta name="description" content="Chosen Generation offers full funeral services, cash-back plans & 24/7 support in Mpumalanga. Honouring lives with dignity since 2024.">
+<meta name="keywords" content="funeral services, funeral plans, cash back, caskets, South Africa, Mpumalanga, Kwalugedlane, undertaker">
+<link rel="canonical" href="https://chosengenerationfuneral.com/">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type"        content="website">
+<meta property="og:url"         content="https://chosengenerationfuneral.com/">
+<meta property="og:title"       content="Chosen Generation Funeral Services">
+<meta property="og:description" content="Trusted funeral plans, caskets & 24-hour support across Mpumalanga. Get a free quote today.">
+<meta property="og:image"       content="https://chosengenerationfuneral.com/images/logo.png">
+
+<!-- Twitter -->
+<meta name="twitter:card"        content="summary_large_image">
+<meta name="twitter:url"         content="https://chosengenerationfuneral.com/">
+<meta name="twitter:title"       content="Chosen Generation Funeral Services">
+<meta name="twitter:description" content="Compassionate, affordable funeral services & cash-back plans. Call 065 509 8770 now.">
+<meta name="twitter:image"       content="https://chosengenerationfuneral.com/images/logo.png">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="images/logo.png">
+<link rel="apple-touch-icon" href="images/logo.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'gold': '#D4AF37',
+                        'gold-light': '#F4E4BC',
+                        'gold-dark': '#B8941F',
+                        'brown': '#8B4513',
+                        'brown-dark': '#654321',
+                        'dark-brown': '#3E2723'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .heading-font {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .hero-slide {
+            opacity: 0;
+            transform: translateX(100%);
+            transition: all 0.8s ease-in-out;
+        }
+        
+        .hero-slide.active {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease-out;
+        }
+        
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .glow-effect {
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .glow-effect:hover {
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.6);
+            transform: translateY(-2px);
+        }
+        
+        .gradient-gold {
+            background: linear-gradient(135deg, #F4E4BC 0%, #D4AF37 100%);
+        }
+        
+        .gradient-brown {
+            background: linear-gradient(135deg, #D4AF37 0%, #B8941F 100%);
+        }
+        
+        .gradient-dark {
+            background: linear-gradient(135deg, #B8941F 0%, #8B4513 100%);
+        }
+        
+        .sidebar {
+            transform: translateX(-100%);
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .sidebar.open {
+            transform: translateX(0);
+        }
+        
+        .floating-animation {
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .pulse-glow {
+            animation: pulseGlow 2s ease-in-out infinite;
+        }
+        
+        @keyframes pulseGlow {
+            0%, 100% { box-shadow: 0 0 20px rgba(212, 175, 55, 0.3); }
+            50% { box-shadow: 0 0 40px rgba(212, 175, 55, 0.6); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Mobile Sidebar -->
+    <div id="sidebar" class="sidebar fixed inset-y-0 left-0 z-50 w-64 gradient-dark shadow-2xl lg:hidden">
+        <div class="flex items-center justify-between p-6 border-b border-brown">
+            <h2 class="text-xl font-bold text-gold heading-font">Menu</h2>
+            <button id="closeSidebar" class="text-gold hover:text-gold-light">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+        </div>
+        <nav class="p-6">
+            <ul class="space-y-4">
+                <li><a href="#home" class="block text-gold-light hover:text-gold transition-colors">Home</a></li>
+                <li><a href="#about" class="block text-gold-light hover:text-gold transition-colors">About Us</a></li>
+                <li><a href="#services" class="block text-gold-light hover:text-gold transition-colors">Services</a></li>
+                <li><a href="#plans" class="block text-gold-light hover:text-gold transition-colors">Plans & Benefits</a></li>
+                <li><a href="#cashback" class="block text-gold-light hover:text-gold transition-colors">Cash Back</a></li>
+                <li><a href="#gallery" class="block text-gold-light hover:text-gold transition-colors">Gallery</a></li>
+                <li><a href="#contact" class="block text-gold-light hover:text-gold transition-colors">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Overlay -->
+    <div id="overlay" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden lg:hidden"></div>
+
+    <!-- Header -->
+    <header class="gradient-dark shadow-lg sticky top-0 z-30">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+    <div class="w-12 h-12 gradient-gold flex items-center justify-center overflow-hidden rounded-none">
+        <img src="images/logo.png" alt="Chosen Generation Logo" class="w-full h-full object-contain">
+    </div>
+    <div>
+        <h1 class="text-xl font-bold text-gold heading-font">Chosen Generation</h1>
+        <p class="text-gold-light text-sm">Funeral Services</p>
+    </div>
+</div>
+
+                
+                <!-- Desktop Navigation -->
+                <nav class="hidden lg:flex space-x-8">
+                    <a href="#home" class="text-gold-light hover:text-gold transition-colors">Home</a>
+                    <a href="#about" class="text-gold-light hover:text-gold transition-colors">About Us</a>
+                    <a href="#services" class="text-gold-light hover:text-gold transition-colors">Services</a>
+                    <a href="#plans" class="text-gold-light hover:text-gold transition-colors">Plans & Benefits</a>
+                    <a href="#cashback" class="text-gold-light hover:text-gold transition-colors">Cash Back</a>
+                    <a href="#gallery" class="text-gold-light hover:text-gold transition-colors">Gallery</a>
+                    <a href="#contact" class="text-gold-light hover:text-gold transition-colors">Contact</a>
+                </nav>
+                
+                <!-- Mobile Menu Button -->
+                <button id="menuButton" class="lg:hidden text-gold hover:text-gold-light">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative h-screen overflow-hidden gradient-dark">
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+        
+        <!-- Hero Slides -->
+        <!-- Hero Slides -->
+<div class="relative h-full">
+    <!-- Slide 1 -->
+    <div class="hero-slide active absolute inset-0 flex items-center bg-cover bg-center" style="background-image: url('images/hero1.jpg');">
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div class="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center relative z-10">
+            <div class="text-center lg:text-left">
+                <h2 class="text-5xl lg:text-7xl font-bold text-gold heading-font mb-6 floating-animation">
+                    Compassionate Care
+                </h2>
+                <p class="text-xl text-gold-light mb-8 leading-relaxed">
+                    Supporting you through life's most challenging moments with dignity and respect
+                </p>
+                <button class="glow-effect gradient-gold text-dark-brown px-8 py-4 rounded-full font-semibold text-lg hover:scale-105 transition-transform">
+                    Learn More About Our Services
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="hero-slide absolute inset-0 flex items-center bg-cover bg-center" style="background-image: url('images/hero2.jpg');">
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div class="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center relative z-10">
+            <div class="text-center lg:text-left">
+                <h2 class="text-5xl lg:text-7xl font-bold text-gold heading-font mb-6 floating-animation">
+                    Honoring Lives
+                </h2>
+                <p class="text-xl text-gold-light mb-8 leading-relaxed">
+                    Every life is unique, and every service we offer reflects that uniqueness
+                </p>
+                <button class="glow-effect gradient-gold text-dark-brown px-8 py-4 rounded-full font-semibold text-lg hover:scale-105 transition-transform">
+                    View Our Plans
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+        <!-- Hero Navigation Dots -->
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-3">
+            <button class="hero-dot w-3 h-3 rounded-full bg-gold opacity-100" data-slide="0"></button>
+            <button class="hero-dot w-3 h-3 rounded-full bg-gold-light opacity-50" data-slide="1"></button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+<section id="about" class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-16 fade-in">
+            <h2 class="text-4xl lg:text-5xl font-bold text-dark-brown heading-font mb-6">
+                Welcome to Chosen Generation Funeral Services
+            </h2>
+            <div class="w-24 h-1 gradient-gold mx-auto mb-8"></div>
+        </div>
+        
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <!-- Image Column -->
+            <div class="fade-in flex justify-center">
+                <div class="glow-effect rounded-2xl overflow-hidden" style="max-width:600px; max-height:400px; width:100%;">
+                    <img src="images/about.jpg" alt="About Chosen Generation Funeral Services" class="w-full h-auto object-contain">
+                </div>
+            </div>
+            
+            <!-- Text Column -->
+            <div class="fade-in">
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    At Chosen Generation Funeral, we understand that losing a loved one is one of life's most challenging experiences. During these difficult times, you need a compassionate and caring partner to guide you through the process of honouring and remembering your loved one.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    We are here to support you with unwavering dedication and empathy. Our mission is to provide you with a sense of comfort and peace as we help you navigate the arrangements for your loved one's farewell.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mb-8">
+                    We believe that each life is unique, and every service we offer is tailored to reflect that uniqueness.
+                </p>
+                <a href="about.html" class="inline-block glow-effect gradient-gold text-dark-brown px-8 py-4 rounded-full font-semibold hover:scale-105 transition-transform">
+                    More About Us
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 gradient-dark">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl lg:text-5xl font-bold text-gold heading-font mb-6">Our Services</h2>
+                <div class="w-24 h-1 bg-gold mx-auto mb-8"></div>
+                <p class="text-xl text-gold-light max-w-3xl mx-auto">
+                    Comprehensive funeral services designed to honor your loved one with dignity and respect
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="fade-in bg-white rounded-2xl p-8 glow-effect hover:scale-105 transition-transform">
+                    <div class="w-16 h-16 gradient-gold rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-dark-brown" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark-brown mb-4 heading-font">Mortuary Facility</h3>
+                    <p class="text-gray-600">Professional mortuary services with the highest standards of care and dignity.</p>
+                </div>
+                
+                <div class="fade-in bg-white rounded-2xl p-8 glow-effect hover:scale-105 transition-transform">
+                    <div class="w-16 h-16 gradient-brown rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-gold-light" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark-brown mb-4 heading-font">Funeral Programs</h3>
+                    <p class="text-gray-600">Beautifully designed funeral programs to commemorate your loved one's life.</p>
+                </div>
+                
+                <div class="fade-in bg-white rounded-2xl p-8 glow-effect hover:scale-105 transition-transform">
+                    <div class="w-16 h-16 gradient-gold rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-dark-brown" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.22.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark-brown mb-4 heading-font">Transportation</h3>
+                    <p class="text-gray-600">Hearse and family car services with extensive collection radius coverage.</p>
+                </div>
+                
+                <div class="fade-in bg-white rounded-2xl p-8 glow-effect hover:scale-105 transition-transform">
+                    <div class="w-16 h-16 gradient-brown rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-gold-light" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark-brown mb-4 heading-font">Cemetery Services</h3>
+                    <p class="text-gray-600">Complete cemetery arrangements including décor, grave markers, and refreshments.</p>
+                </div>
+                
+                <div class="fade-in bg-white rounded-2xl p-8 glow-effect hover:scale-105 transition-transform">
+                    <div class="w-16 h-16 gradient-gold rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-dark-brown" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark-brown mb-4 heading-font">Home Services</h3>
+                    <p class="text-gray-600">Tent and seating arrangements for home-based memorial services.</p>
+                </div>
+                
+                <div class="fade-in bg-white rounded-2xl p-8 glow-effect hover:scale-105 transition-transform">
+                    <div class="w-16 h-16 gradient-brown rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8 text-gold-light" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-dark-brown mb-4 heading-font">Support Services</h3>
+                    <p class="text-gray-600">Additional support including groceries packages and communication assistance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section id="plans" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16 fade-in">
+                <h2 class="text-4xl lg:text-5xl font-bold text-dark-brown heading-font mb-6">Plans & Benefits</h2>
+                <div class="w-24 h-1 gradient-gold mx-auto mb-8"></div>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Choose the plan that best suits your family's needs. All plans include comprehensive coverage for 9 family members.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 xl:grid-cols-4 gap-8">
+                <!-- Saver Plan -->
+                <div class="fade-in bg-white rounded-2xl p-8 glow-effect hover:scale-105 transition-transform">
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold text-dark-brown heading-font mb-2">Saver Plan</h3>
+                        <div class="text-4xl font-bold text-gold mb-2">R150</div>
+                        <p class="text-gray-600">per month</p>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">9 family members covered</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">R500 cash payout</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">Redwood ¼-view casket</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">Hearse + 1 family car</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">Groceries package included</span>
+                        </li>
+                    </ul>
+                    <button class="w-full gradient-gold text-dark-brown py-3 rounded-full font-semibold glow-effect hover:scale-105 transition-transform">
+                        Choose Saver Plan
+                    </button>
+                </div>
+                
+                <!-- Standard Plan -->
+                <div class="fade-in bg-white rounded-2xl p-8 glow-effect hover:scale-105 transition-transform relative">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 gradient-gold text-dark-brown px-6 py-2 rounded-full text-sm font-bold">
+                        MOST POPULAR
+                    </div>
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold text-dark-brown heading-font mb-2">Standard Plan</h3>
+                        <div class="text-4xl font-bold text-gold mb-2">R200</div>
+                        <p class="text-gray-600">per month</p>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">9 family members covered</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">R1,000 cash payout</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">Redwood ½-view casket + flowers</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">Hearse + 2 family cars</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">Enhanced groceries OR R1,000 cash</span>
+                        </li>
+                    </ul>
+                    <button class="w-full gradient-gold text-dark-brown py-3 rounded-full font-semibold glow-effect hover:scale-105 transition-transform">
+                        Choose Standard Plan
+                    </button>
+                </div>
+                
+                <!-- Premium Plan -->
+                <div class="fade-in bg-white rounded-2xl p-8 glow-effect hover:scale-105 transition-transform">
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold text-dark-brown heading-font mb-2">Premium Plan</h3>
+                        <div class="text-4xl font-bold text-gold mb-2">R300</div>
+                        <p class="text-gray-600">per month</p>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">9 family members covered</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">R1,500 cash payout</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">Polished pine mini-dome casket</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">Hearse + 2 family cars</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">Enhanced groceries OR R1,300 cash</span>
+                        </li>
+                    </ul>
+                    <button class="w-full gradient-gold text-dark-brown py-3 rounded-full font-semibold glow-effect hover:scale-105 transition-transform">
+                        Choose Premium Plan
+                    </button>
+                </div>
+                
+                <!-- Full Flexi Plan -->
+                <div class="fade-in bg-white rounded-2xl p-8 glow-effect hover:scale-105 transition-transform border-4 border-gold relative">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 gradient-gold text-dark-brown px-6 py-2 rounded-full text-sm font-bold">
+                        PREMIUM
+                    </div>
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold text-dark-brown heading-font mb-2">Full Flexi Plan</h3>
+                        <div class="text-4xl font-bold text-gold mb-2">R400</div>
+                        <p class="text-gray-600">per month</p>
+                    </div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">6 family members covered</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">R2,000 cash payout</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">Light-stain dome casket + flowers</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">Hearse + 3 family cars</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-gold mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-gray-700">Premium groceries OR R2,000 cash</span>
+                        </li>
+                    </ul>
+                    <button class="w-full gradient-gold text-dark-brown py-3 rounded-full font-semibold glow-effect hover:scale-105 transition-transform">
+                        Choose Full Flexi Plan
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Waiting Periods -->
+            <div class="mt-16 fade-in">
+                <div class="bg-white rounded-2xl p-8 glow-effect">
+                    <h3 class="text-2xl font-bold text-dark-brown heading-font mb-6 text-center">Important Information</h3>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h4 class="text-lg font-semibold text-brown mb-4">Waiting Periods</h4>
+                            <ul class="space-y-2 text-gray-700">
+                                <li>• Natural Death: 6 months</li>
+                                <li>• Accidental Death: No waiting period</li>
+                                <li>• Switching from another Undertaker: No waiting period</li>
+                                <li>• Suicide: 24 months</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-semibold text-brown mb-4">Additional Benefits</h4>
+                            <ul class="space-y-2 text-gray-700">
+                                <li>• FREE joining fee</li>
+                                <li>• 24/7 advice hotline</li>
+                                <li>• 550 km collection radius</li>
+                                <li>• Bus transport for distances >10 km</li>
+                                <li>• Two-pole tent & chairs</li>
+                                <li>• Cemetery décor & grave marker included</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Payment & Claims Information -->
+            <div class="mt-16 grid lg:grid-cols-2 gap-8">
+                <div class="fade-in bg-white rounded-2xl p-8 glow-effect">
+                    <h3 class="text-2xl font-bold text-dark-brown heading-font mb-6">Payment Information</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <h4 class="text-lg font-semibold text-brown mb-2">Premium Payments</h4>
+                            <ul class="space-y-2 text-gray-700">
+                                <li>• Due date: On or before the 7th of each month</li>
+                                <li>• Payment methods: POS, debit order, EFT</li>
+                                <li>• Arrears: Two months of missed payments forfeit benefits</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-semibold text-brown mb-2">Registration</h4>
+                            <p class="text-gray-700">Reg No: 2025/112690/07</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="fade-in bg-white rounded-2xl p-8 glow-effect">
+                    <h3 class="text-2xl font-bold text-dark-brown heading-font mb-6">Claim Procedure</h3>
+                    <div>
+                        <h4 class="text-lg font-semibold text-brown mb-4">Required Documents</h4>
+                        <ul class="space-y-2 text-gray-700">
+                            <li>• Main member's ID</li>
+                            <li>• Deceased's ID</li>
+                            <li>• Form BI-1663 (death notice)</li>
+                            <li>• Police report (for suicide / accidental deaths)</li>
+                            <li>• Proof of membership (card or payment receipt)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cash Back Section -->
+<section id="cashback" class="py-20 bg-white">
+    <div class="container mx-auto px-4 sm:px-6">
+        
+        <!-- Title -->
+        <div class="text-center mb-12 fade-in">
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-dark-brown heading-font mb-6">Cash Back Plans</h2>
+            <div class="w-24 h-1 gradient-gold mx-auto mb-6"></div>
+            <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
+                Flexible cash back options with comprehensive coverage for you and your family
+            </p>
+        </div>
+
+        <!-- Joining Fee -->
+        <div class="mb-12 fade-in">
+            <div class="bg-gradient-to-r from-gold to-gold-dark rounded-2xl p-6 sm:p-8 text-center glow-effect">
+                <h3 class="text-2xl sm:text-3xl font-bold text-dark-brown heading-font mb-3">Joining Fee: R100</h3>
+                <p class="text-dark-brown text-base sm:text-lg">One-time registration fee for all Cash Back plans</p>
+            </div>
+        </div>
+
+        <!-- Waiting Periods -->
+        <div class="mb-12 fade-in">
+            <div class="bg-gray-50 rounded-2xl p-6 sm:p-8">
+                <h3 class="text-xl sm:text-2xl font-bold text-dark-brown heading-font mb-6 text-center">Waiting Periods</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="text-center">
+                        <div class="w-14 h-14 sm:w-16 sm:h-16 gradient-gold rounded-full flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-users text-dark-brown text-lg sm:text-xl"></i>
+                        </div>
+                        <h4 class="font-semibold text-brown mb-1">Main Member & Family</h4>
+                        <p class="text-gray-600 text-sm sm:text-base">4 months waiting period</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-14 h-14 sm:w-16 sm:h-16 gradient-brown rounded-full flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-user-friends text-gold-light text-lg sm:text-xl"></i>
+                        </div>
+                        <h4 class="font-semibold text-brown mb-1">Parents & Extended</h4>
+                        <p class="text-gray-600 text-sm sm:text-base">4 months waiting period</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-14 h-14 sm:w-16 sm:h-16 gradient-gold rounded-full flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-exclamation-triangle text-dark-brown text-lg sm:text-xl"></i>
+                        </div>
+                        <h4 class="font-semibold text-brown mb-1">Accidental Death</h4>
+                        <p class="text-gray-600 text-sm sm:text-base">No waiting period</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-14 h-14 sm:w-16 sm:h-16 gradient-brown rounded-full flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-clock text-gold-light text-lg sm:text-xl"></i>
+                        </div>
+                        <h4 class="font-semibold text-brown mb-1">Suicide Death</h4>
+                        <p class="text-gray-600 text-sm sm:text-base">24 months waiting period</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Money Bag Premiums -->
+        <div class="mb-12 fade-in">
+            <div class="bg-white rounded-2xl p-6 sm:p-8 glow-effect border-2 border-gold">
+                <h3 class="text-xl sm:text-2xl font-bold text-dark-brown heading-font mb-6 text-center flex items-center justify-center">
+                    <i class="fas fa-money-bill-wave text-gold mr-2 sm:mr-3"></i>
+                    Money Bag Premiums
+                </h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-xs sm:text-sm">
+                        <thead>
+                            <tr class="gradient-gold">
+                                <th class="px-4 py-3 text-left text-dark-brown font-semibold">Plan Type</th>
+                                <th class="px-4 py-3 text-left text-dark-brown font-semibold">Entry Age</th>
+                                <th class="px-4 py-3 text-center text-dark-brown font-semibold">R10,000 Cover</th>
+                                <th class="px-4 py-3 text-center text-dark-brown font-semibold">R15,000 Cover</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200">
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 font-medium text-brown" rowspan="2">Single</td>
+                                <td class="px-4 py-3 text-gray-700">15–64</td>
+                                <td class="px-4 py-3 text-center font-semibold text-gold">R40.00</td>
+                                <td class="px-4 py-3 text-center font-semibold text-gold">R55.00</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 text-gray-700">65–94</td>
+                                <td class="px-4 py-3 text-center font-semibold text-gold">R75.00</td>
+                                <td class="px-4 py-3 text-center font-semibold text-gold">R110.00</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 bg-gold-light bg-opacity-20">
+                                <td class="px-4 py-3 font-medium text-brown" rowspan="2">Immediate Family</td>
+                                <td class="px-4 py-3 text-gray-700">15–64</td>
+                                <td class="px-4 py-3 text-center font-semibold text-gold">R130.00</td>
+                                <td class="px-4 py-3 text-center font-semibold text-gold">R190.00</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 bg-gold-light bg-opacity-20">
+                                <td class="px-4 py-3 text-gray-700">65–94</td>
+                                <td class="px-4 py-3 text-center font-semibold text-gold">R200.00</td>
+                                <td class="px-4 py-3 text-center font-semibold text-gold">R325.00</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 font-medium text-brown" rowspan="2">Family</td>
+                                <td class="px-4 py-3 text-gray-700">15–64</td>
+                                <td class="px-4 py-3 text-center font-semibold text-gold">R140.00</td>
+                                <td class="px-4 py-3 text-center font-semibold text-gold">R200.00</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 text-gray-700">65–94</td>
+                                <td class="px-4 py-3 text-center font-semibold text-gold">R230.00</td>
+                                <td class="px-4 py-3 text-center font-semibold text-gold">R350.00</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 font-medium text-brown" rowspan="2">Adult Dependent</td>
+                                <td class="px-4 py-3 text-gray-700">15–64</td>
+                                <td class="px-4 py-3 text-center font-semibold text-gold">R70.00</td>
+                                <td class="px-4 py-3 text-center font-semibold text-gold">R100.00</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 text-gray-700">65–94</td>
+                                <td class="px-4 py-3 text-center font-semibold text-gold">R100.00</td>
+                                <td class="px-4 py-3 text-center font-semibold text-gold">R150.00</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 font-medium text-brown" rowspan="2">Single Parent Family</td>
+                                <td class="px-4 py-3 text-gray-700">15–64</td>
+                                <td class="px-4 py-3 text-center font-semibold text-gold">R80.00</td>
+                                <td class="px-4 py-3 text-center font-semibold text-gold">R120.00</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 text-gray-700">65–94</td>
+                                <td class="px-4 py-3 text-center font-semibold text-gold">R160.00</td>
+                                <td class="px-4 py-3 text-center font-semibold text-gold">R235.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tombstone & Ilkkomo Premiums -->
+        <div class="mb-12 fade-in">
+            <div class="bg-white rounded-2xl p-6 sm:p-8 glow-effect border-2 border-brown">
+                <h3 class="text-xl sm:text-2xl font-bold text-dark-brown heading-font mb-6 text-center flex items-center justify-center">
+                    <i class="fas fa-monument text-brown mr-2 sm:mr-3"></i>
+                    Tombstone & Ilkkomo Premiums
+                </h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-xs sm:text-sm">
+                        <thead>
+                            <tr class="gradient-brown">
+                                <th class="px-4 py-3 text-left text-gold-light font-semibold">Plan Type</th>
+                                <th class="px-4 py-3 text-left text-gold-light font-semibold">Entry Age</th>
+                                <th class="px-4 py-3 text-center text-gold-light font-semibold">Tombstone</th>
+                                <th class="px-4 py-3 text-center text-gold-light font-semibold">Ilkkomo</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200">
+                            <tr class="hover:bg-gray-50 bg-brown bg-opacity-10">
+                                <td class="px-4 py-3 font-medium text-brown" rowspan="2">Immediate Family</td>
+                                <td class="px-4 py-3 text-gray-700">15–64</td>
+                                <td class="px-4 py-3 text-center font-semibold text-brown">R65.00</td>
+                                <td class="px-4 py-3 text-center font-semibold text-brown">R75.00</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50 bg-brown bg-opacity-10">
+                                <td class="px-4 py-3 text-gray-700">65–94</td>
+                                <td class="px-4 py-3 text-center font-semibold text-brown">R130.00</td>
+                                <td class="px-4 py-3 text-center font-semibold text-brown">R190.00</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 font-medium text-brown" rowspan="2">Family</td>
+                                <td class="px-4 py-3 text-gray-700">15–64</td>
+                                <td class="px-4 py-3 text-center font-semibold text-brown">R140.00</td>
+                                <td class="px-4 py-3 text-center font-semibold text-brown">R200.00</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 text-gray-700">65–94</td>
+                                <td class="px-4 py-3 text-center font-semibold text-brown">R230.00</td>
+                                <td class="px-4 py-3 text-center font-semibold text-brown">R350.00</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 font-medium text-brown" rowspan="2">Adult Dependent</td>
+                                <td class="px-4 py-3 text-gray-700">15–64</td>
+                                <td class="px-4 py-3 text-center font-semibold text-brown">R70.00</td>
+                                <td class="px-4 py-3 text-center font-semibold text-brown">R100.00</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 text-gray-700">65–94</td>
+                                <td class="px-4 py-3 text-center font-semibold text-brown">R100.00</td>
+                                <td class="px-4 py-3 text-center font-semibold text-brown">R150.00</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 font-medium text-brown" rowspan="2">Single Parent Family</td>
+                                <td class="px-4 py-3 text-gray-700">15–64</td>
+                                <td class="px-4 py-3 text-center font-semibold text-brown">R80.00</td>
+                                <td class="px-4 py-3 text-center font-semibold text-brown">R120.00</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-4 py-3 text-gray-700">65–94</td>
+                                <td class="px-4 py-3 text-center font-semibold text-brown">R160.00</td>
+                                <td class="px-4 py-3 text-center font-semibold text-brown">R235.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="text-center fade-in">
+            <div class="bg-gradient-to-r from-gold to-brown rounded-2xl p-6 sm:p-8 glow-effect">
+                <h3 class="text-xl sm:text-2xl font-bold text-white heading-font mb-3">Ready to Get Started?</h3>
+                <p class="text-gold-light mb-5 text-sm sm:text-base">Choose the Cash Back plan that best fits your family's needs</p>
+                <button class="bg-white text-brown px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:scale-105 transition-transform glow-effect">
+                    Contact Us for More Information
+                </button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <section id="gallery" class="py-20 bg-gray-50">
+  <div class="container mx-auto px-4 sm:px-6">
+    <div class="text-center mb-10 sm:mb-16 fade-in">
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-dark-brown heading-font mb-4 sm:mb-6">
+        Casket Gallery
+      </h2>
+      <div class="w-20 sm:w-24 h-1 gradient-gold mx-auto mb-6 sm:mb-8"></div>
+      <p class="text-base sm:text-xl text-gray-600 max-w-3xl mx-auto px-2">
+        Browse our selection of beautiful caskets, each crafted with care and dignity to honor your loved one.
+      </p>
+    </div>
+
+    <!-- Carousel Container -->
+    <div class="relative max-w-6xl mx-auto fade-in">
+      <!-- Main Carousel -->
+      <div class="relative overflow-hidden rounded-xl sm:rounded-2xl glow-effect">
+        <div class="carousel-track flex transition-transform duration-500 ease-in-out" id="carouselTrack" aria-live="polite">
+          <!-- 20 Slides -->
+          <div class="carousel-slide min-w-full flex justify-center items-center bg-white"><img src="images/casket1.jpg" alt="Casket 1" class="w-full h-[40vh] sm:h-[500px] object-contain" loading="eager"></div>
+          <div class="carousel-slide min-w-full flex justify-center items-center bg-white"><img src="images/casket2.jpg" alt="Casket 2" class="w-full h-[40vh] sm:h-[500px] object-contain" loading="lazy"></div>
+          <div class="carousel-slide min-w-full flex justify-center items-center bg-white"><img src="images/casket3.jpg" alt="Casket 3" class="w-full h-[40vh] sm:h-[500px] object-contain" loading="lazy"></div>
+          <div class="carousel-slide min-w-full flex justify-center items-center bg-white"><img src="images/casket4.jpg" alt="Casket 4" class="w-full h-[40vh] sm:h-[500px] object-contain" loading="lazy"></div>
+          <div class="carousel-slide min-w-full flex justify-center items-center bg-white"><img src="images/casket5.jpg" alt="Casket 5" class="w-full h-[40vh] sm:h-[500px] object-contain" loading="lazy"></div>
+          <div class="carousel-slide min-w-full flex justify-center items-center bg-white"><img src="images/casket6.jpg" alt="Casket 6" class="w-full h-[40vh] sm:h-[500px] object-contain" loading="lazy"></div>
+          <div class="carousel-slide min-w-full flex justify-center items-center bg-white"><img src="images/casket7.jpg" alt="Casket 7" class="w-full h-[40vh] sm:h-[500px] object-contain" loading="lazy"></div>
+          <div class="carousel-slide min-w-full flex justify-center items-center bg-white"><img src="images/casket8.jpg" alt="Casket 8" class="w-full h-[40vh] sm:h-[500px] object-contain" loading="lazy"></div>
+          <div class="carousel-slide min-w-full flex justify-center items-center bg-white"><img src="images/casket9.jpg" alt="Casket 9" class="w-full h-[40vh] sm:h-[500px] object-contain" loading="lazy"></div>
+          <div class="carousel-slide min-w-full flex justify-center items-center bg-white"><img src="images/casket10.jpg" alt="Casket 10" class="w-full h-[40vh] sm:h-[500px] object-contain" loading="lazy"></div>
+          <div class="carousel-slide min-w-full flex justify-center items-center bg-white"><img src="images/casket11.jpg" alt="Casket 11" class="w-full h-[40vh] sm:h-[500px] object-contain" loading="lazy"></div>
+          <div class="carousel-slide min-w-full flex justify-center items-center bg-white"><img src="images/casket12.jpg" alt="Casket 12" class="w-full h-[40vh] sm:h-[500px] object-contain" loading="lazy"></div>
+          <div class="carousel-slide min-w-full flex justify-center items-center bg-white"><img src="images/casket13.jpg" alt="Casket 13" class="w-full h-[40vh] sm:h-[500px] object-contain" loading="lazy"></div>
+          <div class="carousel-slide min-w-full flex justify-center items-center bg-white"><img src="images/casket14.jpg" alt="Casket 14" class="w-full h-[40vh] sm:h-[500px] object-contain" loading="lazy"></div>
+          <div class="carousel-slide min-w-full flex justify-center items-center bg-white"><img src="images/casket15.jpg" alt="Casket 15" class="w-full h-[40vh] sm:h-[500px] object-contain" loading="lazy"></div>
+          <div class="carousel-slide min-w-full flex justify-center items-center bg-white"><img src="images/casket16.jpg" alt="Casket 16" class="w-full h-[40vh] sm:h-[500px] object-contain" loading="lazy"></div>
+          <div class="carousel-slide min-w-full flex justify-center items-center bg-white"><img src="images/casket17.jpg" alt="Casket 17" class="w-full h-[40vh] sm:h-[500px] object-contain" loading="lazy"></div>
+          <div class="carousel-slide min-w-full flex justify-center items-center bg-white"><img src="images/casket18.jpg" alt="Casket 18" class="w-full h-[40vh] sm:h-[500px] object-contain" loading="lazy"></div>
+          <div class="carousel-slide min-w-full flex justify-center items-center bg-white"><img src="images/casket19.jpg" alt="Casket 19" class="w-full h-[40vh] sm:h-[500px] object-contain" loading="lazy"></div>
+          <div class="carousel-slide min-w-full flex justify-center items-center bg-white"><img src="images/casket20.jpg" alt="Casket 20" class="w-full h-[40vh] sm:h-[500px] object-contain" loading="lazy"></div>
+        </div>
+      </div>
+
+      <!-- Navigation Arrows -->
+      <button class="carousel-btn carousel-prev absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 w-9 h-9 sm:w-12 sm:h-12 gradient-gold rounded-full flex items-center justify-center glow-effect hover:scale-110 transition-transform z-10">
+        <svg class="w-5 h-5 sm:w-6 sm:h-6 text-dark-brown" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+        </svg>
+      </button>
+      <button class="carousel-btn carousel-next absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 w-9 h-9 sm:w-12 sm:h-12 gradient-gold rounded-full flex items-center justify-center glow-effect hover:scale-110 transition-transform z-10">
+        <svg class="w-5 h-5 sm:w-6 sm:h-6 text-dark-brown" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+        </svg>
+      </button>
+
+      <!-- Dots Indicator -->
+      <div class="flex flex-wrap justify-center mt-6 sm:mt-8 gap-2" id="carouselDots"></div>
+    </div>
+
+    <!-- Thumbnail Strip -->
+    <div class="mt-8 sm:mt-12 fade-in">
+      <h3 class="text-xl sm:text-2xl font-bold text-dark-brown heading-font mb-4 sm:mb-6 text-center">Quick Browse</h3>
+      <div class="flex overflow-x-auto space-x-3 sm:space-x-4 pb-3 sm:pb-4 snap-x snap-mandatory scrollbar-hide" id="thumbnailStrip">
+        <img src="images/casket1.jpg"  alt="Casket 1 thumbnail"  class="h-16 sm:h-20 w-auto rounded-lg cursor-pointer thumb snap-start" data-index="0">
+        <img src="images/casket2.jpg"  alt="Casket 2 thumbnail"  class="h-16 sm:h-20 w-auto rounded-lg cursor-pointer thumb snap-start" data-index="1">
+        <img src="images/casket3.jpg"  alt="Casket 3 thumbnail"  class="h-16 sm:h-20 w-auto rounded-lg cursor-pointer thumb snap-start" data-index="2">
+        <img src="images/casket4.jpg"  alt="Casket 4 thumbnail"  class="h-16 sm:h-20 w-auto rounded-lg cursor-pointer thumb snap-start" data-index="3">
+        <img src="images/casket5.jpg"  alt="Casket 5 thumbnail"  class="h-16 sm:h-20 w-auto rounded-lg cursor-pointer thumb snap-start" data-index="4">
+        <img src="images/casket6.jpg"  alt="Casket 6 thumbnail"  class="h-16 sm:h-20 w-auto rounded-lg cursor-pointer thumb snap-start" data-index="5">
+        <img src="images/casket7.jpg"  alt="Casket 7 thumbnail"  class="h-16 sm:h-20 w-auto rounded-lg cursor-pointer thumb snap-start" data-index="6">
+        <img src="images/casket8.jpg"  alt="Casket 8 thumbnail"  class="h-16 sm:h-20 w-auto rounded-lg cursor-pointer thumb snap-start" data-index="7">
+        <img src="images/casket9.jpg"  alt="Casket 9 thumbnail"  class="h-16 sm:h-20 w-auto rounded-lg cursor-pointer thumb snap-start" data-index="8">
+        <img src="images/casket10.jpg" alt="Casket 10 thumbnail" class="h-16 sm:h-20 w-auto rounded-lg cursor-pointer thumb snap-start" data-index="9">
+        <img src="images/casket11.jpg" alt="Casket 11 thumbnail" class="h-16 sm:h-20 w-auto rounded-lg cursor-pointer thumb snap-start" data-index="10">
+        <img src="images/casket12.jpg" alt="Casket 12 thumbnail" class="h-16 sm:h-20 w-auto rounded-lg cursor-pointer thumb snap-start" data-index="11">
+        <img src="images/casket13.jpg" alt="Casket 13 thumbnail" class="h-16 sm:h-20 w-auto rounded-lg cursor-pointer thumb snap-start" data-index="12">
+        <img src="images/casket14.jpg" alt="Casket 14 thumbnail" class="h-16 sm:h-20 w-auto rounded-lg cursor-pointer thumb snap-start" data-index="13">
+        <img src="images/casket15.jpg" alt="Casket 15 thumbnail" class="h-16 sm:h-20 w-auto rounded-lg cursor-pointer thumb snap-start" data-index="14">
+        <img src="images/casket16.jpg" alt="Casket 16 thumbnail" class="h-16 sm:h-20 w-auto rounded-lg cursor-pointer thumb snap-start" data-index="15">
+        <img src="images/casket17.jpg" alt="Casket 17 thumbnail" class="h-16 sm:h-20 w-auto rounded-lg cursor-pointer thumb snap-start" data-index="16">
+        <img src="images/casket18.jpg" alt="Casket 18 thumbnail" class="h-16 sm:h-20 w-auto rounded-lg cursor-pointer thumb snap-start" data-index="17">
+        <img src="images/casket19.jpg" alt="Casket 19 thumbnail" class="h-16 sm:h-20 w-auto rounded-lg cursor-pointer thumb snap-start" data-index="18">
+        <img src="images/casket20.jpg" alt="Casket 20 thumbnail" class="h-16 sm:h-20 w-auto rounded-lg cursor-pointer thumb snap-start" data-index="19">
+      </div>
+    </div>
+
+    <!-- Contact for More Information -->
+    <div class="text-center mt-8 sm:mt-12 fade-in">
+      <div class="bg-white rounded-xl sm:rounded-2xl p-6 sm:p-8 glow-effect max-w-lg sm:max-w-2xl mx-auto">
+        <h3 class="text-xl sm:text-2xl font-bold text-dark-brown heading-font mb-3 sm:mb-4">Need More Information?</h3>
+        <p class="text-gray-600 mb-4 sm:mb-6 text-sm sm:text-base px-2">
+          Our compassionate team is here to help you choose the perfect casket to honor your loved one.
+          We offer personalized consultations and can arrange private viewings.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+          <button class="gradient-gold text-dark-brown px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold glow-effect hover:scale-105 transition-transform">
+            Schedule a Consultation
+          </button>
+          <button class="bg-white text-brown border-2 border-brown px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold hover:gradient-brown hover:text-gold-light transition-all">
+            Call Us: 065 509 8770
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Modal for Gallery Images -->
+    <div id="galleryModal" class="fixed inset-0 bg-black bg-opacity-75 z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+            <div class="p-6">
+                <div class="flex justify-between items-center mb-6">
+                    <h3 id="modalTitle" class="text-2xl font-bold text-dark-brown heading-font">Casket Details</h3>
+                    <button onclick="closeModal()" class="text-gray-500 hover:text-gray-700">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+                
+                <div class="grid lg:grid-cols-2 gap-8">
+                    <div>
+                        <div id="modalImage" class="h-80 bg-gradient-to-br from-amber-100 to-amber-200 rounded-xl flex items-center justify-center mb-4">
+                            <!-- Dynamic content will be inserted here -->
+                        </div>
+                        <div class="grid grid-cols-3 gap-2">
+                            <div class="h-20 bg-gradient-to-br from-amber-200 to-amber-300 rounded-lg"></div>
+                            <div class="h-20 bg-gradient-to-br from-amber-100 to-amber-200 rounded-lg"></div>
+                            <div class="h-20 bg-gradient-to-br from-amber-300 to-amber-400 rounded-lg"></div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div id="modalContent">
+                            <!-- Dynamic content will be inserted here -->
+                        </div>
+                        
+                        <div class="mt-8 space-y-4">
+                            <button class="w-full gradient-gold text-dark-brown py-3 rounded-full font-semibold glow-effect hover:scale-105 transition-transform">
+                                Request Information
+                            </button>
+                            <button class="w-full bg-white text-brown border-2 border-brown py-3 rounded-full font-semibold hover:gradient-brown hover:text-gold-light transition-all">
+                                Schedule Viewing
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section – Mobile-First & WhatsApp -->
+<section id="contact" class="py-12 sm:py-20 gradient-dark">
+  <div class="container mx-auto px-4">
+    <!-- Heading -->
+    <div class="text-center mb-10 sm:mb-16 fade-in">
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gold heading-font mb-4">Contact Us</h2>
+      <div class="w-20 sm:w-24 h-1 bg-gold mx-auto mb-4 sm:mb-8"></div>
+      <p class="text-base sm:text-xl text-gold-light max-w-3xl mx-auto">
+        We're here to support you during this challenging time. Reach out to us for compassionate guidance and assistance.
+      </p>
+    </div>
+
+    <!-- Two-column layout on ≥ lg, stacked on mobile -->
+    <div class="grid lg:grid-cols-2 gap-8 lg:gap-12">
+      <!-- CONTACT INFO -->
+      <div class="fade-in">
+        <div class="bg-white rounded-2xl p-6 sm:p-8 glow-effect">
+          <h3 class="text-xl sm:text-2xl font-bold text-dark-brown heading-font mb-6">Get in Touch</h3>
+
+          <div class="space-y-5 sm:space-y-6 text-sm sm:text-base">
+            <!-- Phone / WhatsApp -->
+            <a href="tel:+27655098770" class="flex items-center group">
+              <div class="w-10 h-10 sm:w-12 sm:h-12 gradient-gold rounded-full flex items-center justify-center mr-3 sm:mr-4">
+                <svg class="w-5 h-5 sm:w-6 sm:h-6 text-dark-brown" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                </svg>
+              </div>
+              <div class="group-hover:text-gold transition-colors">
+                <h4 class="font-semibold text-dark-brown">Phone / WhatsApp</h4>
+                <p class="text-gray-600">065 509 8770</p>
+              </div>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:info@chosengenerationfuneral.com" class="flex items-center group">
+              <div class="w-10 h-10 sm:w-12 sm:h-12 gradient-brown rounded-full flex items-center justify-center mr-3 sm:mr-4">
+                <svg class="w-5 h-5 sm:w-6 sm:h-6 text-gold-light" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+              </div>
+              <div class="group-hover:text-gold transition-colors">
+                <h4 class="font-semibold text-dark-brown">Email</h4>
+                <p class="text-gray-600">info@chosengenerationfuneral.com</p>
+              </div>
+            </a>
+
+            <!-- Address -->
+            <div class="flex items-start">
+              <div class="w-10 h-10 sm:w-12 sm:h-12 gradient-gold rounded-full flex items-center justify-center mr-3 sm:mr-4">
+                <svg class="w-5 h-5 sm:w-6 sm:h-6 text-dark-brown" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-dark-brown">Office Address</h4>
+                <p class="text-gray-600">B75 Main Rd (next to Far East Tonga)<br>Stand No. 272, Kwalugedlane, 1341</p>
+              </div>
+            </div>
+
+            <!-- Hours -->
+            <div class="flex items-start">
+              <div class="w-10 h-10 sm:w-12 sm:h-12 gradient-brown rounded-full flex items-center justify-center mr-3 sm:mr-4">
+                <svg class="w-5 h-5 sm:w-6 sm:h-6 text-gold-light" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-dark-brown">Office Hours</h4>
+                <p class="text-gray-600">
+                  Weekdays: 07:30 – 16:30<br>
+                  Saturday: 08:00 – 13:00<br>
+                  Sunday & Holidays: Closed
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- WHATSAPP FORM -->
+      <div class="fade-in">
+        <div class="bg-white rounded-2xl p-6 sm:p-8 glow-effect">
+          <h3 class="text-xl sm:text-2xl font-bold text-dark-brown heading-font mb-4">Send us a WhatsApp</h3>
+          <form id="whatsappForm" class="space-y-4">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1">Full Name *</label>
+              <input type="text" id="waName" required
+                     class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold focus:border-transparent">
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+              <input type="email" id="waEmail"
+                     class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold focus:border-transparent">
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1">Phone *</label>
+              <input type="tel" id="waPhone" required
+                     class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold focus:border-transparent">
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-1">Message *</label>
+              <textarea id="waMessage" rows="3" required
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold focus:border-transparent"></textarea>
+            </div>
+            <button type="submit"
+                    class="w-full gradient-gold text-dark-brown py-3 rounded-full font-semibold glow-effect hover:scale-105 transition-transform">
+              Send via WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-dark-brown py-16">
+        <div class="container mx-auto px-6">
+            <!-- Main Footer Content -->
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-8 mb-12">
+                <!-- Company Info -->
+                <div class="lg:col-span-1">
+                    <div class="flex items-center space-x-3 mb-6">
+    <div class="w-12 h-12 flex items-center justify-center">
+        <img src="images/logo.png" alt="Chosen Generation Logo" class="w-12 h-12 rounded-full object-cover">
+    </div>
+    <div>
+        <h3 class="text-xl font-bold text-gold heading-font">Chosen Generation</h3>
+        <p class="text-gold-light text-sm">Funeral Services</p>
+    </div>
+</div>
+
+                    <p class="text-gold-light mb-6 leading-relaxed">
+                        Supporting you through life's most challenging moments with dignity, respect, and compassionate care.
+                    </p>
+                    <div class="text-gold-light text-sm">
+                        <p class="mb-1">Reg No: 2025/112690/07</p>
+                        <p>Licensed Funeral Service Provider</p>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-bold text-gold heading-font mb-6">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="#home" class="text-gold-light hover:text-gold transition-colors flex items-center">
+                                <i class="fas fa-chevron-right text-xs mr-2"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="text-gold-light hover:text-gold transition-colors flex items-center">
+                                <i class="fas fa-chevron-right text-xs mr-2"></i>
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#services" class="text-gold-light hover:text-gold transition-colors flex items-center">
+                                <i class="fas fa-chevron-right text-xs mr-2"></i>
+                                Our Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="plans.html" class="text-gold-light hover:text-gold transition-colors flex items-center">
+                                <i class="fas fa-chevron-right text-xs mr-2"></i>
+                                Plans & Benefits
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contact.html" class="text-gold-light hover:text-gold transition-colors flex items-center">
+                                <i class="fas fa-chevron-right text-xs mr-2"></i>
+                                Contact Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#claims" class="text-gold-light hover:text-gold transition-colors flex items-center">
+                                <i class="fas fa-chevron-right text-xs mr-2"></i>
+                                Claims Process
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact & Follow Us -->
+                <div>
+                    <h4 class="text-lg font-bold text-gold heading-font mb-6">Contact & Follow Us</h4>
+                    <div class="space-y-4 mb-6">
+                        <div class="flex items-center text-gold-light">
+                            <i class="fas fa-phone text-gold mr-3"></i>
+                            <div>
+                                <p>065 509 8770</p>
+                                <p>060 630 0449</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center text-gold-light">
+                            <i class="fas fa-envelope text-gold mr-3"></i>
+                            <p>info@chosengenerationfuneral.com</p>
+                        </div>
+                        <div class="flex items-start text-gold-light">
+                            <i class="fas fa-map-marker-alt text-gold mr-3 mt-1"></i>
+                            <div>
+                                <p>B75 Main Rd</p>
+                                <p>Stand No. 272, Kwalugedlane, 1341</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center text-gold-light">
+                            <i class="fas fa-clock text-gold mr-3"></i>
+                            <div>
+                                <p>Mon-Fri: 07:30-16:30</p>
+                                <p>Sat: 08:00-13:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Media Icons -->
+                    <div>
+                        <p class="text-gold-light mb-4">Follow us on social media:</p>
+                        <div class="flex space-x-4">
+                            <a href="https://www.facebook.com/Chosengenerationfuneraldirectors/" class="w-10 h-10 gradient-gold rounded-full flex items-center justify-center hover:scale-110 transition-transform glow-effect">
+                                <i class="fab fa-facebook-f text-dark-brown"></i>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCjZ_cu65Jz_SKeee0oFn60Q" class="w-10 h-10 gradient-gold rounded-full flex items-center justify-center hover:scale-110 transition-transform glow-effect">
+                                <i class="fab fa-youtube text-dark-brown"></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@chosengenerationf?_t=ZM-8ys0sGnqipC&_r=1" class="w-10 h-10 gradient-gold rounded-full flex items-center justify-center hover:scale-110 transition-transform glow-effect">
+                                <i class="fab fa-tiktok text-dark-brown"></i>
+                            </a>
+                            <a href="https://wa.me/27655098770" class="w-10 h-10 gradient-gold rounded-full flex items-center justify-center hover:scale-110 transition-transform glow-effect">
+                                <i class="fab fa-whatsapp text-dark-brown"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/siyabonga-mogiba-805a30231/?originalSubdomain=za" class="w-10 h-10 gradient-gold rounded-full flex items-center justify-center hover:scale-110 transition-transform glow-effect">
+                                <i class="fab fa-linkedin-in text-dark-brown"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Legal & Resources -->
+                <div>
+                    <h4 class="text-lg font-bold text-gold heading-font mb-6">Legal & Resources</h4>
+                    <ul class="space-y-3 mb-6">
+                        <li>
+                            <a href="#" class="text-gold-light hover:text-gold transition-colors flex items-center">
+                                <i class="fas fa-file-contract text-xs mr-2"></i>
+                                Terms & Conditions
+                            </a>
+                        </li>
+                        <li>
+                            <a href="terms.html" class="text-gold-light hover:text-gold transition-colors flex items-center">
+                                <i class="fas fa-shield-alt text-xs mr-2"></i>
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gold-light hover:text-gold transition-colors flex items-center">
+                                <i class="fas fa-handshake text-xs mr-2"></i>
+                                Code of Conduct
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gold-light hover:text-gold transition-colors flex items-center">
+                                <i class="fas fa-question-circle text-xs mr-2"></i>
+                                FAQ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gold-light hover:text-gold transition-colors flex items-center">
+                                <i class="fas fa-exclamation-triangle text-xs mr-2"></i>
+                                Complaints Procedure
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gold-light hover:text-gold transition-colors flex items-center">
+                                <i class="fas fa-download text-xs mr-2"></i>
+                                Download Forms
+                            </a>
+                        </li>
+                    </ul>
+                    
+                    <!-- Emergency Contact -->
+                    <div class="bg-brown bg-opacity-30 rounded-lg p-4">
+                        <h5 class="text-gold font-semibold mb-2 flex items-center">
+                            <i class="fas fa-phone-alt mr-2"></i>
+                            24/7 Emergency
+                        </h5>
+                        <p class="text-gold-light text-sm">
+                            For urgent assistance outside office hours, call our emergency hotline.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="border-t border-brown pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="text-gold-light text-sm mb-4 md:mb-0">
+                        <p>© 2024 Chosen Generation Funeral Services. All rights reserved.</p>
+                    </div>
+                    <div class="flex flex-wrap items-center space-x-6 text-gold-light text-sm">
+                        <span class="flex items-center">
+                            <i class="fas fa-certificate text-gold mr-2"></i>
+                            Licensed & Insured
+                        </span>
+                        <span class="flex items-center">
+                            <i class="fas fa-award text-gold mr-2"></i>
+                            Professional Service
+                        </span>
+                        <span class="flex items-center">
+                            <i class="fas fa-heart text-gold mr-2"></i>
+                            Compassionate Care
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp JS -->
+<script>
+  document.getElementById('whatsappForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    const name    = encodeURIComponent(document.getElementById('waName').value.trim());
+    const email   = encodeURIComponent(document.getElementById('waEmail').value.trim());
+    const phone   = encodeURIComponent(document.getElementById('waPhone').value.trim());
+    const message = encodeURIComponent(document.getElementById('waMessage').value.trim());
+
+    const body = `Hi Chosen Generation 👋%0A%0AName: ${name}%0AEmail: ${email}%0APhone: ${phone}%0A%0AMessage:%0A${message}%0A%0AThank you!`;
+
+    window.open(`https://wa.me/27655098770?text=${body}`, '_blank');
+  });
+</script>
+
+    <script>
+        // Mobile menu functionality
+        const menuButton = document.getElementById('menuButton');
+        const sidebar = document.getElementById('sidebar');
+        const closeSidebar = document.getElementById('closeSidebar');
+        const overlay = document.getElementById('overlay');
+
+        menuButton.addEventListener('click', () => {
+            sidebar.classList.add('open');
+            overlay.classList.remove('hidden');
+        });
+
+        closeSidebar.addEventListener('click', () => {
+            sidebar.classList.remove('open');
+            overlay.classList.add('hidden');
+        });
+
+        overlay.addEventListener('click', () => {
+            sidebar.classList.remove('open');
+            overlay.classList.add('hidden');
+        });
+
+        // Hero slider functionality
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.hero-slide');
+        const dots = document.querySelectorAll('.hero-dot');
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.toggle('active', i === index);
+            });
+            dots.forEach((dot, i) => {
+                dot.style.opacity = i === index ? '1' : '0.5';
+            });
+        }
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentSlide = index;
+                showSlide(currentSlide);
+            });
+        });
+
+        // Auto-advance slides
+        setInterval(() => {
+            currentSlide = (currentSlide + 1) % slides.length;
+            showSlide(currentSlide);
+        }, 5000);
+
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Close mobile menu if open
+                    sidebar.classList.remove('open');
+                    overlay.classList.add('hidden');
+                }
+            });
+        });
+
+        // Add scroll effect to header
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.backdropFilter = 'blur(10px)';
+                header.style.backgroundColor = 'rgba(62, 39, 35, 0.95)';
+            } else {
+                header.style.backdropFilter = 'none';
+                header.style.backgroundColor = '';
+            }
+        });
+
+        // Carousel functionality
+        let currentSlideIndex = 0;
+        const totalSlides = 20;
+        const carouselTrack = document.getElementById('carouselTrack');
+        const carouselDots = document.getElementById('carouselDots');
+        const thumbnailStrip = document.getElementById('thumbnailStrip');
+
+        // Casket data for the carousel
+        const casketNames = [
+            'Classic Redwood', 'Mahogany Elegance', 'Pine Heritage', 'Oak Tradition', 'Steel Classic',
+            'Bronze Elegance', 'Copper Deluxe', 'Forest Green', 'Cherry Wood', 'Royal Blue',
+            'Rose Garden', 'Ocean Breeze', 'Pewter Classic', 'Emerald Grace', 'Lavender Dreams',
+            'Sky Blue', 'Sunset Rose', 'Spring Meadow', 'Royal Orchid', 'Golden Heritage'
+        ];
+
+        const casketColors = [
+            'from-amber-100 to-amber-200', 'from-amber-200 to-amber-300', 'from-yellow-100 to-yellow-200',
+            'from-orange-100 to-orange-200', 'from-gray-200 to-gray-300', 'from-blue-100 to-blue-200',
+            'from-purple-100 to-purple-200', 'from-green-100 to-green-200', 'from-red-100 to-red-200',
+            'from-indigo-100 to-indigo-200', 'from-pink-100 to-pink-200', 'from-teal-100 to-teal-200',
+            'from-slate-100 to-slate-200', 'from-emerald-100 to-emerald-200', 'from-violet-100 to-violet-200',
+            'from-cyan-100 to-cyan-200', 'from-rose-100 to-rose-200', 'from-lime-100 to-lime-200',
+            'from-fuchsia-100 to-fuchsia-200', 'from-yellow-200 to-yellow-300'
+        ];
+
+        // Generate dots
+        for (let i = 0; i < totalSlides; i++) {
+            const dot = document.createElement('button');
+            dot.className = `w-3 h-3 rounded-full transition-all ${i === 0 ? 'bg-gold scale-125' : 'bg-gold-light hover:bg-gold'}`;
+            dot.addEventListener('click', () => goToSlide(i));
+            carouselDots.appendChild(dot);
+        }
+
+        // Generate thumbnails
+        for (let i = 0; i < totalSlides; i++) {
+            const thumbnail = document.createElement('div');
+            thumbnail.className = `min-w-24 h-16 bg-gradient-to-br ${casketColors[i]} rounded-lg cursor-pointer hover:scale-105 transition-transform flex items-center justify-center`;
+            thumbnail.innerHTML = `
+                <div class="text-center">
+                    <div class="w-6 h-6 bg-black bg-opacity-30 rounded mx-auto mb-1 flex items-center justify-center">
+                        <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <p class="text-xs font-semibold text-black opacity-70">${i + 1}</p>
+                </div>
+            `;
+            thumbnail.addEventListener('click', () => goToSlide(i));
+            thumbnailStrip.appendChild(thumbnail);
+        }
+
+        function updateCarousel() {
+            const translateX = -currentSlideIndex * 100;
+            carouselTrack.style.transform = `translateX(${translateX}%)`;
+            
+            // Update dots
+            const dots = carouselDots.querySelectorAll('button');
+            dots.forEach((dot, index) => {
+                if (index === currentSlideIndex) {
+                    dot.className = 'w-3 h-3 rounded-full bg-gold scale-125 transition-all';
+                } else {
+                    dot.className = 'w-3 h-3 rounded-full bg-gold-light hover:bg-gold transition-all';
+                }
+            });
+        }
+
+        function goToSlide(index) {
+            currentSlideIndex = index;
+            updateCarousel();
+        }
+
+        function nextSlide() {
+            currentSlideIndex = (currentSlideIndex + 1) % totalSlides;
+            updateCarousel();
+        }
+
+        function prevSlide() {
+            currentSlideIndex = (currentSlideIndex - 1 + totalSlides) % totalSlides;
+            updateCarousel();
+        }
+
+        // Navigation buttons
+        document.querySelector('.carousel-next').addEventListener('click', nextSlide);
+        document.querySelector('.carousel-prev').addEventListener('click', prevSlide);
+
+        // Auto-advance carousel
+        setInterval(nextSlide, 5000);
+
+        // Touch/swipe support for mobile
+        let startX = 0;
+        let endX = 0;
+
+        carouselTrack.addEventListener('touchstart', (e) => {
+            startX = e.touches[0].clientX;
+        });
+
+        carouselTrack.addEventListener('touchend', (e) => {
+            endX = e.changedTouches[0].clientX;
+            const diff = startX - endX;
+            
+            if (Math.abs(diff) > 50) { // Minimum swipe distance
+                if (diff > 0) {
+                    nextSlide();
+                } else {
+                    prevSlide();
+                }
+            }
+        });
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') {
+                prevSlide();
+            } else if (e.key === 'ArrowRight') {
+                nextSlide();
+            }
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96f0503aa06d1380',t:'MTc1NTE3MzA1Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
