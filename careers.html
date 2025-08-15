@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casket Gallery | Standard, Premium & Funeral Images – Chosen Generation</title>
-    <meta name="description" content="View our complete gallery: 20 standard caskets, 18 premium domes & 8 funeral-work images in full HD. Click for details & pricing.">
-    <meta name="keywords" content="casket gallery, funeral caskets, premium domes, coffin pictures, South Africa">
-    <link rel="canonical" href="https://chosengenerationfuneral.com/gallery.html">
-    <meta property="og:title"       content="Casket Gallery – Chosen Generation">
-    <meta property="og:description" content="Browse 46 high-resolution images of caskets and funeral services.">
-    <meta property="og:image"       content="https://chosengenerationfuneral.com/images/casket1.jpg">
-    <meta name="twitter:image"      content="https://chosengenerationfuneral.com/images/casket1.jpg">
+    <title>Careers | Join Our Compassionate Team – Chosen Generation</title>
+    <meta name="description" content="Discover rewarding career opportunities at Chosen Generation. Help us serve families with dignity and care. Submit your CV for future roles.">
+    <meta name="keywords" content="funeral careers, undertaker jobs, funeral parlour vacancies, South Africa, Mpumalanga, Kwalugedlane">
+    <link rel="canonical" href="https://chosengenerationfuneral.com/careers.html">
+    <meta property="og:title"       content="Careers at Chosen Generation – Join Our Team">
+    <meta property="og:description" content="Help us serve families with compassion and dignity. Submit your CV for future opportunities.">
+    <meta property="og:image"       content="https://chosengenerationfuneral.com/images/logo.png">
+    <meta name="twitter:image"      content="https://chosengenerationfuneral.com/images/logo.png">
     <link rel="icon" type="image/png" href="images/logo.png">
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -44,22 +44,13 @@
         .gradient-dark{background:linear-gradient(135deg,#B8941F 0%,#8B4513 100%);}
         .floating-animation{animation:float 3s ease-in-out infinite;}
         @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
-
-        /* Gallery masonry layout */
-        .gallery-grid { column-count: 1; column-gap: 1rem; }
-        @media (min-width: 640px) { .gallery-grid { column-count: 2; } }
-        @media (min-width: 1024px) { .gallery-grid { column-count: 3; } }
-        @media (min-width: 1280px) { .gallery-grid { column-count: 4; } }
-
-        .gallery-item { break-inside: avoid; margin-bottom: 1rem; }
-        .gallery-item img { width: 100%; height: auto; display: block; border-radius: .75rem; }
-        .modal { display:none; position:fixed; inset:0; z-index:50; background:rgba(0,0,0,.85); justify-content:center; align-items:center; padding:1rem; }
-        .modal img { max-width:100%; max-height:90vh; border-radius:.75rem; }
+        .form-input{transition:all .3s ease;}
+        .form-input:focus{box-shadow:0 0 0 3px rgba(212,175,55,.3);border-color:#D4AF37;}
     </style>
 </head>
 <body class="bg-gray-50">
 
-<!-- HEADER (identical to index.html) -->
+<!-- HEADER -->
 <header class="gradient-dark shadow-lg sticky top-0 z-30">
     <div class="container mx-auto px-6 py-4 flex items-center justify-between">
         <div class="flex items-center space-x-3">
@@ -76,8 +67,8 @@
             <a href="about.html" class="text-gold-light hover:text-gold transition-colors">About Us</a>
             <a href="index.html#services" class="text-gold-light hover:text-gold transition-colors">Services</a>
             <a href="plans.html" class="text-gold-light hover:text-gold transition-colors">Plans & Benefits</a>
-            <a href="index.html#cashback" class="text-gold-light hover:text-gold transition-colors">Cash Back</a>
-            <a href="gallery.html" class="text-gold hover:text-gold-light transition-colors">Gallery</a>
+            <a href="gallery.html" class="text-gold-light hover:text-gold transition-colors">Gallery</a>
+            <a href="careers.html" class="text-gold hover:text-gold-light transition-colors">Careers</a>
             <a href="contact.html" class="text-gold-light hover:text-gold transition-colors">Contact</a>
         </nav>
         <a href="index.html" class="lg:hidden text-gold hover:text-gold-light">
@@ -92,201 +83,160 @@
 <section class="py-20 gradient-dark">
     <div class="container mx-auto px-6 text-center">
         <div class="fade-in">
-            <h1 class="text-5xl lg:text-7xl font-bold text-gold heading-font mb-6 floating-animation">Gallery</h1>
+            <h1 class="text-5xl lg:text-7xl font-bold text-gold heading-font mb-6 floating-animation">Join Our Team</h1>
             <p class="text-xl text-gold-light mb-8 max-w-4xl mx-auto leading-relaxed">
-                Explore our full range of caskets and view real examples of our compassionate funeral services in action.
+                Make a difference in people's lives. Help us serve families with compassion, dignity, and professional excellence.
             </p>
             <div class="w-24 h-1 gradient-gold mx-auto"></div>
         </div>
     </div>
 </section>
 
-<!-- STANDARD CASKETS -->
+<!-- NO CURRENT VACANCIES -->
 <section class="py-20 bg-white">
     <div class="container mx-auto px-6">
-        <div class="text-center mb-12 fade-in">
-            <h2 class="text-3xl lg:text-4xl font-bold text-dark-brown heading-font mb-4">Standard Caskets</h2>
-            <div class="w-16 h-1 gradient-gold mx-auto mb-6"></div>
-            <p class="text-lg text-gray-600">20 elegant standard casket options</p>
-        </div>
-        <div class="gallery-grid fade-in">
-            <!-- 20 Standard Caskets -->
-            <div class="gallery-item">
-                <img src="images/casket1.jpg"  alt="Standard Casket 1"  loading="lazy" onclick="openModal(this.src)">
+        <div class="max-w-3xl mx-auto text-center">
+            <div class="fade-in mb-12">
+                <div class="w-24 h-24 gradient-gold rounded-full flex items-center justify-center mx-auto mb-6">
+                    <i class="fas fa-briefcase text-4xl text-dark-brown"></i>
+                </div>
+                <h2 class="text-3xl lg:text-4xl font-bold text-dark-brown heading-font mb-4">No Current Vacancies</h2>
+                <p class="text-lg text-gray-600 mb-8">
+                    At this time, we do not have any open positions. However, we are always interested in hearing from compassionate professionals who share our values.
+                </p>
             </div>
-            <div class="gallery-item">
-                <img src="images/casket2.jpg"  alt="Standard Casket 2"  loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/casket3.jpg"  alt="Standard Casket 3"  loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/casket4.jpg"  alt="Standard Casket 4"  loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/casket5.jpg"  alt="Standard Casket 5"  loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/casket6.jpg"  alt="Standard Casket 6"  loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/casket7.jpg"  alt="Standard Casket 7"  loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/casket8.jpg"  alt="Standard Casket 8"  loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/casket9.jpg"  alt="Standard Casket 9"  loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/casket10.jpg" alt="Standard Casket 10" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/casket11.jpg" alt="Standard Casket 11" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/casket12.jpg" alt="Standard Casket 12" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/casket13.jpg" alt="Standard Casket 13" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/casket14.jpg" alt="Standard Casket 14" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/casket15.jpg" alt="Standard Casket 15" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/casket16.jpg" alt="Standard Casket 16" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/casket17.jpg" alt="Standard Casket 17" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/casket18.jpg" alt="Standard Casket 18" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/casket19.jpg" alt="Standard Casket 19" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/casket20.jpg" alt="Standard Casket 20" loading="lazy" onclick="openModal(this.src)">
+
+            <div class="fade-in bg-gray-50 rounded-2xl p-8 glow-effect mb-12">
+                <h3 class="text-2xl font-bold text-dark-brown heading-font mb-6">Future Opportunities</h3>
+                <p class="text-gray-700 mb-6">
+                    We regularly review applications for roles in:
+                </p>
+                <div class="grid md:grid-cols-2 gap-4 text-left">
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-user-tie text-gold mr-3"></i>Funeral Directors</li>
+                        <li class="flex items-center"><i class="fas fa-heart text-gold mr-3"></i>Funeral Assistants</li>
+                        <li class="flex items-center"><i class="fas fa-ambulance text-gold mr-3"></i>Mortuary Technicians</li>
+                    </ul>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-cogs text-gold mr-3"></i>Administrative Staff</li>
+                        <li class="flex items-center"><i class="fas fa-comments text-gold mr-3"></i>Client Care Specialists</li>
+                        <li class="flex items-center"><i class="fas fa-shuttle-van text-gold mr-3"></i>Transport Coordinators</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- PREMIUM DOMES -->
+<!-- EXPRESSION OF INTEREST - WhatsApp Version -->
 <section class="py-20 bg-gray-50">
     <div class="container mx-auto px-6">
-        <div class="text-center mb-12 fade-in">
-            <h2 class="text-3xl lg:text-4xl font-bold text-dark-brown heading-font mb-4">Premium Dome Caskets</h2>
-            <div class="w-16 h-1 gradient-gold mx-auto mb-6"></div>
-            <p class="text-lg text-gray-600">18 luxurious dome-style caskets</p>
-        </div>
-        <div class="gallery-grid fade-in">
-            <!-- 18 Premium Domes -->
-            <div class="gallery-item">
-                <img src="images/dome1.jpg"  alt="Premium Dome 1"  loading="lazy" onclick="openModal(this.src)">
+        <div class="max-w-2xl mx-auto">
+            <div class="fade-in text-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-bold text-dark-brown heading-font mb-6">Submit Your CV via WhatsApp</h2>
+                <p class="text-lg text-gray-600">
+                    Register your interest for future opportunities. We'll contact you when a suitable position becomes available.
+                </p>
             </div>
-            <div class="gallery-item">
-                <img src="images/dome2.jpg"  alt="Premium Dome 2"  loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/dome3.jpg"  alt="Premium Dome 3"  loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/dome4.jpg"  alt="Premium Dome 4"  loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/dome5.jpg"  alt="Premium Dome 5"  loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/dome6.jpg"  alt="Premium Dome 6"  loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/dome7.jpg"  alt="Premium Dome 7"  loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/dome8.jpg"  alt="Premium Dome 8"  loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/dome9.jpg"  alt="Premium Dome 9"  loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/dome10.jpg" alt="Premium Dome 10" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/dome11.jpg" alt="Premium Dome 11" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/dome12.jpg" alt="Premium Dome 12" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/dome13.jpg" alt="Premium Dome 13" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/dome14.jpg" alt="Premium Dome 14" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/dome15.jpg" alt="Premium Dome 15" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/dome16.jpg" alt="Premium Dome 16" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/dome17.jpg" alt="Premium Dome 17" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/dome18.jpg" alt="Premium Dome 18" loading="lazy" onclick="openModal(this.src)">
+
+            <div class="fade-in bg-white rounded-2xl p-8 glow-effect">
+                <form id="whatsappForm" class="space-y-6">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-semibold text-dark-brown mb-2">First Name *</label>
+                            <input type="text" name="firstName" required class="form-input w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-dark-brown mb-2">Last Name *</label>
+                            <input type="text" name="lastName" required class="form-input w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold">
+                        </div>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-semibold text-dark-brown mb-2">Email Address *</label>
+                            <input type="email" name="email" required class="form-input w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-dark-brown mb-2">Phone Number *</label>
+                            <input type="tel" name="phone" required class="form-input w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-dark-brown mb-2">Position of Interest *</label>
+                        <select name="position" required class="form-input w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold">
+                            <option value="">Select a position</option>
+                            <option value="Funeral Director">Funeral Director</option>
+                            <option value="Funeral Assistant">Funeral Assistant</option>
+                            <option value="Mortuary Technician">Mortuary Technician</option>
+                            <option value="Administrative Staff">Administrative Staff</option>
+                            <option value="Client Care Specialist">Client Care Specialist</option>
+                            <option value="Transport Coordinator">Transport Coordinator</option>
+                            <option value="General Application">General Application</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-dark-brown mb-2">Brief Cover Letter *</label>
+                        <textarea name="coverLetter" rows="4" placeholder="Tell us why you'd like to join our team..." required class="form-input w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold resize-none"></textarea>
+                    </div>
+
+                    <div class="flex items-center">
+                        <input type="checkbox" name="privacy" required class="mr-3 text-gold focus:ring-gold">
+                        <label class="text-sm text-gray-700">
+                            I consent to my information being stored for recruitment purposes and agree to the privacy policy *
+                        </label>
+                    </div>
+
+                    <button type="submit" class="w-full gradient-gold text-dark-brown py-4 rounded-full font-semibold text-lg glow-effect hover:scale-105 transition-transform">
+                        Submit Application
+                    </button>
+                </form>
             </div>
         </div>
     </div>
 </section>
 
-<!-- FUNERAL WORK IMAGES -->
+
+
+
+<!-- COMPANY CULTURE -->
 <section class="py-20 bg-white">
     <div class="container mx-auto px-6">
-        <div class="text-center mb-12 fade-in">
-            <h2 class="text-3xl lg:text-4xl font-bold text-dark-brown heading-font mb-4">Our Work in Action</h2>
-            <div class="w-16 h-1 gradient-gold mx-auto mb-6"></div>
-            <p class="text-lg text-gray-600">8 real moments of compassionate service</p>
+        <div class="text-center mb-16 fade-in">
+            <h2 class="text-3xl lg:text-4xl font-bold text-dark-brown heading-font mb-6">Why Work With Us</h2>
+            <div class="w-16 h-1 gradient-gold mx-auto mb-8"></div>
         </div>
-        <div class="gallery-grid fade-in">
-            <!-- 8 Work Images -->
-            <div class="gallery-item">
-                <img src="images/work1.jpg" alt="Funeral Work 1" loading="lazy" onclick="openModal(this.src)">
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="fade-in text-center">
+                <div class="w-16 h-16 gradient-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-heart text-2xl text-dark-brown"></i>
+                </div>
+                <h4 class="text-xl font-bold text-dark-brown mb-3">Meaningful Work</h4>
+                <p class="text-gray-600">Make a real difference in people's lives during their most difficult moments.</p>
             </div>
-            <div class="gallery-item">
-                <img src="images/work2.jpg" alt="Funeral Work 2" loading="lazy" onclick="openModal(this.src)">
+
+            <div class="fade-in text-center">
+                <div class="w-16 h-16 gradient-brown rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-users text-2xl text-gold-light"></i>
+                </div>
+                <h4 class="text-xl font-bold text-dark-brown mb-3">Supportive Team</h4>
+                <p class="text-gray-600">Join a compassionate team that values collaboration and mutual support.</p>
             </div>
-            <div class="gallery-item">
-                <img src="images/work3.jpg" alt="Funeral Work 3" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/work4.jpg" alt="Funeral Work 4" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/work5.jpg" alt="Funeral Work 5" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/work6.jpg" alt="Funeral Work 6" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/work7.jpg" alt="Funeral Work 7" loading="lazy" onclick="openModal(this.src)">
-            </div>
-            <div class="gallery-item">
-                <img src="images/work8.jpg" alt="Funeral Work 8" loading="lazy" onclick="openModal(this.src)">
+
+            <div class="fade-in text-center">
+                <div class="w-16 h-16 gradient-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-graduation-cap text-2xl text-dark-brown"></i>
+                </div>
+                <h4 class="text-xl font-bold text-dark-brown mb-3">Training & Growth</h4>
+                <p class="text-gray-600">Continuous professional development and industry-specific training provided.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- MODAL -->
-<div id="modal" class="modal" onclick="closeModal()">
-    <img id="modalImg" alt="Full-size preview">
-</div>
-
-<!-- FOOTER (identical to index.html) -->
 <footer class="bg-dark-brown py-16">
     <div class="container mx-auto px-6">
         <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-8 mb-12">
@@ -399,22 +349,43 @@
 </footer>
 
 <script>
-    // Intersection Observer for fade-in
+    // Intersection Observer
     const observer = new IntersectionObserver(entries => entries.forEach(e => e.isIntersecting && e.target.classList.add('visible')), {threshold: 0.1});
     document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 
-    // Modal functions
-    function openModal(src) {
-        document.getElementById('modalImg').src = src;
-        document.getElementById('modal').style.display = 'flex';
-        document.body.classList.add('overflow-hidden');
-    }
-    function closeModal() {
-        document.getElementById('modal').style.display = 'none';
-        document.body.classList.remove('overflow-hidden');
-    }
-    // Close on Escape
-    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+    // Form handling
+    document.getElementById('careersForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // Simulate form submission
+        setTimeout(() => {
+            document.getElementById('successMessage').classList.remove('hidden');
+            this.reset();
+            // Scroll to success message
+            document.getElementById('successMessage').scrollIntoView({behavior: 'smooth'});
+        }, 1000);
+    });
+</script>
+<script>
+document.getElementById('whatsappForm').addEventListener('submit', function(e) {
+    e.preventDefault(); // prevent normal form submission
+    
+    const firstName = encodeURIComponent(this.firstName.value);
+    const lastName = encodeURIComponent(this.lastName.value);
+    const email = encodeURIComponent(this.email.value);
+    const phone = encodeURIComponent(this.phone.value);
+    const position = encodeURIComponent(this.position.value);
+    const coverLetter = encodeURIComponent(this.coverLetter.value);
+
+    // WhatsApp number in international format
+    const whatsappNumber = '27655098770'; 
+
+    // Construct message
+    const message = `Hello,%20my%20name%20is%20${firstName}%20${lastName}.%20Email:%20${email}.%20Phone:%20${phone}.%20I%20am%20interested%20in%20the%20${position}%20position.%20Cover%20Letter:%20${coverLetter}`;
+
+    // Open WhatsApp
+    window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
+});
 </script>
 </body>
 </html>
